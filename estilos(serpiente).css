@@ -41,7 +41,6 @@ body {
   overflow: hidden;
 }
 
-/* Cabecera */
 #header {
   background: linear-gradient(10deg, white, rgb(8, 162, 233));
   border: 1px solid #999;
@@ -68,7 +67,6 @@ h2
   margin: 15px 0;
 }
 
-/* Navegación */
 #nav {
   background-color: #f1b306;
   padding: 5px 15px;
@@ -91,7 +89,6 @@ h2
   text-align: center;
 }
 
-/* Contenido principal */
 #content {
   background: #FFF;
   border-right: 1px solid #CCC;
@@ -114,7 +111,6 @@ h2
     color: gray;
 }
 
-/* Pie de página */
 #footer {
   clear: both;
   background: #ffffff;
