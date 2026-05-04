@@ -1,0 +1,171 @@
+main {
+    text-align: center;
+}
+
+#contenedorVideojuegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(200, 200, 200, 0.7);
+    box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    width: fit-content;
+}
+
+#lienzo {
+    display: block;
+    margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at center, #ffffff 0%, #cecece 200%);
+  background-color: #8b0000;
+  margin: 0;
+  padding: 20px 0;
+}
+
+#page {
+  width: 960px;
+  background-color: white;
+  border: 10px solid #cc0000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Cabecera */
+#header {
+  background: linear-gradient(10deg, white, rgb(8, 162, 233));
+  border: 1px solid #999;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.pagina
+{
+  width: 900px;
+  margin: 0 auto;
+}
+
+div 
+{
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
+}
+
+h2 
+{
+  text-shadow: 2px 2px 2px gray;
+  margin: 15px 0;
+}
+
+/* Navegación */
+#nav {
+  background-color: #f1b306;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 80px;
+  margin: 0;
+  border-top: 8px solid black;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav li {
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+/* Contenido principal */
+#content {
+  background: #FFF;
+  border-right: 1px solid #CCC;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+  gap: 90px;
+}
+
+.tarjeta
+{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+#color{
+    color: gray;
+}
+
+/* Pie de página */
+#footer {
+  clear: both;
+  background: #ffffff;
+  border-top: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0;
+  background: linear-gradient(10deg, white, rgb(8, 162, 233));
+  color: white;
+  border-top: 8px solid black;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #e05000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    z-index: 100;
+}
+
+.submenu li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submenu li a:hover {
+    background-color: #c04000;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav li:hover .submenu {
+    display: block;
+}
+
+#nav li nav {
+    font-family: 'Impact', fantasy;
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 1px #e05000;
+}

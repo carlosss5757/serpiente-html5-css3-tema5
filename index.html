@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos(serpiente).css">
+    <title>Curso de HTML5 y CSS3</title>
+  </head>
+  <body>
+    <div class="pagina">
+  <div id="page">
+    <div id="header">
+        <img src="logo.png" alt="Imagen del mensaje">
+        <h1>Curso de HTML5 y CSS3</h1>
+    </div>
+
+      <ul id="nav">
+        <li>
+          <img src="book.png" alt="Contenidos">
+          <nav style="color:  white">Contenidos</nav>
+        </li>
+
+        <li>
+          <img src="film.png" alt="Vídeos">
+          <nav style="color: white">Vídeos</nav>
+          <ul class="submenu">
+            <li><a href="serpiente.html">Serpiente</a></li>
+            <li><a href="video2.html">Vídeo 2</a></li>
+            <li><a href="video3.html">Vídeo 3</a></li>
+          </ul>
+        </li>    
+
+        <li>
+          <img src="mail.png" alt="Contacto">
+          <nav style="color: white">Contacto</nav>
+        </li>
+      </ul>
+    <div id="contenedorVideojuegos">
+
+      <canvas id="lienzo" width="500" height="300">
+        Su navegador no soporta el elemento canvas
+      </canvas>
+
+    </div>
+    <footer>
+      <div id="footer">
+      <p>Alejandro Amat Reina © 2014. Curso de HTML5 y CSS3.</p>
+      <p>Impartido para: <a href="CEFIRE - Específico de Formación Profesional">CEFIRE - Específico de Formación Profesional</a></p>
+    </div>
+    </footer>
+    <script src="scripts/serpiente.js"></script>
+  </body>
+</html>
