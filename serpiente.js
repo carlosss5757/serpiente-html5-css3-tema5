@@ -278,24 +278,24 @@ window.addEventListener('load', function() {
     lienzo = canvas.getContext('2d');
 
     medios['iBody'] = new Image();
-    medios['iBody'].src = 'imgs/body.png';
+    medios['iBody'].src = 'body.png';
     medios['iBody'].addEventListener('load', cargaMedio, false);
 
     medios['iFood'] = new Image();
-    medios['iFood'].src = 'imgs/fruit.png';
+    medios['iFood'].src = 'fruit.png';
     medios['iFood'].addEventListener('load', cargaMedio, false);
 
     medios['iWall'] = new Image();
-    medios['iWall'].src = 'imgs/wall.png';
+    medios['iWall'].src = 'wall.png';
     medios['iWall'].addEventListener('load', cargaMedio, false);
 
     // Sonidos
     medios['aComer'] = new Audio();
-    medios['aComer'].src = canPlayOgg() ? 'sounds/chomp.ogg' : 'sounds/chomp.m4a';
+    medios['aComer'].src = canPlayOgg() ? 'chomp.ogg' : 'chomp.m4a';
     medios['aComer'].addEventListener('canplaythrough', cargaMedio, false);
 
     medios['aMorir'] = new Audio();
-    medios['aMorir'].src = canPlayOgg() ? 'sounds/dies.ogg' : 'sounds/dies.m4a';
+    medios['aMorir'].src = canPlayOgg() ? 'dies.ogg' : 'dies.m4a';
     medios['aMorir'].addEventListener('canplaythrough', cargaMedio, false);
 
     cargando();
